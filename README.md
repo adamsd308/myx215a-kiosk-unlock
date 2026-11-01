@@ -8,6 +8,12 @@ Tested on **one personally owned MYX215A bike tablet**: factory-mode root ADB al
 >
 > **Start with the cable. The owner tried THREE different micro-USB cables that did not provide a working data connection before finding one that did.** Charging, a lit screen, or a physically connected cable does not prove USB data is connected. Verify the cable can transfer data, and use the tablet's **micro-USB** port. Do this before changing drivers or concluding that a mode does not expose ADB.
 
+## The tested tablet
+
+![The owner's MYX215A bike tablet running the stock Android launcher after kiosk removal](./images/tablet-front.jpg)
+
+The actual tablet used for this guide, after kiosk removal. Its About tablet screen reports **MYX215A**. Match that model and the documented build rather than assuming every screen sold with a MYX or MYX II bike uses the same hardware. See [more hardware photos](./docs/hardware-photos.md) for the About tablet screen and underside connections.
+
 ## What worked
 
 - Chinese factory diagnostics mode exposed a full ADB interface.
